@@ -30,5 +30,13 @@
   },
   "bugs": {
     "url": "https://github.com/HalloSouf/hallo-logger/issues"
+  },
+  "dependencies": {
+    "chalk": "4.1.2",
+    "date-fns": "^2.30.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.1",
+    "tslib": "^2.6.2"
   }
 }
