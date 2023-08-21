@@ -65,7 +65,7 @@ const app = express();
 app.listen(8080);
 
 // Ready message
-HalloLogger.apReady(startMs, {
+HalloLogger.appReady(startMs, {
   '🚪 Port': ':8080',
   '🌳 Environment': 'development'
 });
