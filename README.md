@@ -39,11 +39,15 @@ logger.warn('Server is running in development mode.');
 logger.error('Failed to connect to database.');
 ```
 
+![image](https://github.com/HalloSouf/hallo-logger/assets/52331524/2706d12c-fc7b-4928-b674-381857f2d76d)
+
 By default, the logger will output a message into the console with only the time of the message. However, you can also add the current date to the message by setting the `withDate` option to `true` when initializing the logger.
 
 ```js
 const logger = new HalloLogger({ prefix: 'Main', withDate: true });
 ```
+
+![image](https://github.com/HalloSouf/hallo-logger/assets/52331524/37e60b3a-924f-43a4-9d7f-115516506059)
 
 ### Ready message
 
@@ -66,6 +70,8 @@ HalloLogger.apReady(startMs, {
   '🌳 Environment': 'development'
 });
 ```
+
+![image](https://github.com/HalloSouf/hallo-logger/assets/52331524/b693bbfe-0914-4ade-9967-f3135928604d)
 
 > **Note:** For this example I used an example with a ExpressJS app. However, this method can be used with any type of application.
 
