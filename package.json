@@ -1,0 +1,34 @@
+{
+  "name": "hallo-logger",
+  "version": "1.0.0",
+  "description": "Say hello to your messages in your console!",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "author": "HalloSouf",
+  "license": "MIT",
+  "files": [
+    "/build"
+  ],
+  "directories": {
+    "lib": "src"
+  },
+  "scripts": {
+    "build": "tsc --build",
+    "publish": "yarn build"
+  },
+  "keywords": [
+    "logger",
+    "hallo-logger",
+    "hallo",
+    "debugging",
+    "debug",
+    "console"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HalloSouf/hallo-logger.git"
+  },
+  "bugs": {
+    "url": "https://github.com/HalloSouf/hallo-logger/issues"
+  }
+}
