@@ -1,4 +1,4 @@
-import Logger from './Logger';
+import HalloLogger from './HalloLogger';
 
 export * from './global.interface';
-export default Logger;
+export default HalloLogger;

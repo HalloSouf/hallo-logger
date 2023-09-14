@@ -6,7 +6,7 @@ import { readFile, readFileSync } from 'fs';
 /**
  * Represents a logger.
  */
-class Logger {
+class HalloLogger {
   /**
    * The options of the logger.
    * @type {ILoggerOptions | undefined}
@@ -138,4 +138,4 @@ class Logger {
   }
 }
 
-export default Logger;
+export default HalloLogger;
